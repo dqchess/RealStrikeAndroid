@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 7754f66c422453642a6a078beb8b0f0e
+timeCreated: 1475074243
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone01
+    100002: Bone02
+    100004: Bone04
+    100006: Bone06
+    100008: Bone07
+    100010: Bone08
+    100012: Bone10
+    100014: Bone11
+    100016: Bone12
+    100018: Bone14
+    100020: Bone15
+    100022: Bone16
+    100024: Bone18
+    100026: Bone19
+    100028: Bone20
+    100030: Bone22
+    100032: Bone23
+    100034: Bone24
+    100036: Bone26
+    100038: Bone27
+    100040: Bone29
+    100042: Bone30
+    100044: Bone31
+    100046: Bone33
+    100048: Bone34
+    100050: Bone35
+    100052: Bone37
+    100054: Bone38
+    100056: Bone41
+    100058: Bone42
+    100060: Bone43
+    100062: Bone45
+    100064: Bone46
+    100066: Bone47
+    100068: Bone49
+    100070: Bone50
+    100072: Charging Handle
+    100074: Dummy01
+    100076: Dummy02
+    100078: Famas
+    100080: //RootNode
+    100082: Magazine
+    100084: SphereGizmo01
+    100086: SphereGizmo02
+    100088: Trigegr
+    400000: Bone01
+    400002: Bone02
+    400004: Bone04
+    400006: Bone06
+    400008: Bone07
+    400010: Bone08
+    400012: Bone10
+    400014: Bone11
+    400016: Bone12
+    400018: Bone14
+    400020: Bone15
+    400022: Bone16
+    400024: Bone18
+    400026: Bone19
+    400028: Bone20
+    400030: Bone22
+    400032: Bone23
+    400034: Bone24
+    400036: Bone26
+    400038: Bone27
+    400040: Bone29
+    400042: Bone30
+    400044: Bone31
+    400046: Bone33
+    400048: Bone34
+    400050: Bone35
+    400052: Bone37
+    400054: Bone38
+    400056: Bone41
+    400058: Bone42
+    400060: Bone43
+    400062: Bone45
+    400064: Bone46
+    400066: Bone47
+    400068: Bone49
+    400070: Bone50
+    400072: Charging Handle
+    400074: Dummy01
+    400076: Dummy02
+    400078: Famas
+    400080: //RootNode
+    400082: Magazine
+    400084: SphereGizmo01
+    400086: SphereGizmo02
+    400088: Trigegr
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Famas
+        weight: 1
+      - path: Famas/Trigegr
+        weight: 1
+      - path: Famas/Charging Handle
+        weight: 1
+      - path: Famas/Magazine
+        weight: 1
+      - path: SphereGizmo01
+        weight: 1
+      - path: SphereGizmo01/Bone04
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone22
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone22/Bone23
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone22/Bone23/Bone24
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone06
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone06/Bone07
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone06/Bone07/Bone08
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone10
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone10/Bone11
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone10/Bone11/Bone12
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone14
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone14/Bone15
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone14/Bone15/Bone16
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone18
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone18/Bone19
+        weight: 1
+      - path: SphereGizmo01/Bone04/Bone18/Bone19/Bone20
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Bone01
+        weight: 1
+      - path: Dummy01/Bone01/Bone02
+        weight: 1
+      - path: SphereGizmo02
+        weight: 1
+      - path: SphereGizmo02/Bone27
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone29
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone29/Bone30
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone29/Bone30/Bone31
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone33
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone33/Bone34
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone33/Bone34/Bone35
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone37
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone37/Bone38
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone37/Bone38/Bone26
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone41
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone41/Bone42
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone41/Bone42/Bone43
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone45
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone45/Bone46
+        weight: 1
+      - path: SphereGizmo02/Bone27/Bone45/Bone46/Bone47
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Bone49
+        weight: 1
+      - path: Dummy02/Bone49/Bone50
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

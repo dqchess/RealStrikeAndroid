@@ -1,0 +1,11 @@
+reload:
+0 common_draw5.wav
+28 mk14_clipout.wav
+87 mk14_clipin.wav
+110 mk14_sliderelease.wav
+
+draw:
+0 common_draw2.wav
+
+empty:
+common_empty.wav

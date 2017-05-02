@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Prismnova/Resources/Scene/RealStrikeAdvanced.unity
+  isLoaded: 1
+  isActive: 1

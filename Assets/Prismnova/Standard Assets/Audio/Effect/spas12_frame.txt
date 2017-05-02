@@ -1,0 +1,19 @@
+fire
+0 spas12_fire.wav
+18 spas12_fire2.wav
+
+start_reload
+0 common_draw5.wav
+
+reload
+5 striker_insert.wav
+
+after_reload
+9 w1200_pump.wav
+
+draw:
+0 ump45_draw.wav
+11 w1200_pump.wav
+
+empty:
+common_empty5.wav

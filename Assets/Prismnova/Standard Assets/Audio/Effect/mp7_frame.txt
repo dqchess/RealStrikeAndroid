@@ -1,0 +1,13 @@
+reload:
+5 mp5_clipout.wav
+15 mp7_magout.wav
+46 mp7_magin.wav
+87 mp7_boltpull.wav
+
+draw:
+0 common_draw4.wav
+11 mp7_clipout.wav
+15 mp7_boltslap.wav
+
+empty:
+common_empty5.wav

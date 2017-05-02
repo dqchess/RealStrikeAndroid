@@ -1,0 +1,15 @@
+reload:
+0 common_draw4.wav
+20 scar_h_hit.wav
+30 scar_h_clipout.wav
+115 scar_h_clipin.wav
+145 m134_pull.wav
+
+draw:
+0 common_draw2.wav
+12 cm901_boltpull.wav
+
+empty:
+common_empty.wav
+
+

@@ -1,0 +1,13 @@
+reload:
+0 common_draw.wav
+21 ppsh41_hit.wav
+35 common_draw3.wav
+74 ppsh41_in.wav
+106 p90_boltpull.wav
+
+draw: 
+0 common_draw6.wav
+30 ppsh41_hit.wav
+
+empty:
+common_empty2.wav

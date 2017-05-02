@@ -1,0 +1,19 @@
+reload:
+0 common_draw4.wav
+10 d_eagle_sliderelease.wav
+19 d_eagle_clipout.wav
+39 d_eagle_clipin.wav
+65 d_eagle_clipin.wav
+84 d_eagle_sliderelease.wav
+
+draw:
+0 common_draw2.wav
+23 d_eagle_sliderelease.wav
+27 d_eagle_sliderelease.wav
+
+empty:
+common_empty2.wav
+
+fire:
+0 d_eagle_fire.wav
+4 d_eagle_fire.wav

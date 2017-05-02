@@ -1,0 +1,19 @@
+draw:
+0 common_draw4.wav
+16 w1200_pump.wav
+
+start_reload:
+0 common_draw4.wav
+
+reload:
+9 w1200_insert.wav
+
+after_reload:
+15 w1200_pump.wav
+
+fire:
+#frame rate must be 25
+0 w1200_fire.wav
+
+empty:
+common_empty2.wav

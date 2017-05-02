@@ -1,0 +1,13 @@
+reload:
+0 fn57_click.wav
+7 fn57_clip_out.wav
+28 d_eagle_clipin.wav
+42 common_empty2.wav
+
+draw:
+0 common_draw6.wav
+
+empty:
+common_empty2.wav
+
+

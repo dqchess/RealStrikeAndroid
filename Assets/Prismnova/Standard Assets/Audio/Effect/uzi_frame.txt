@@ -1,0 +1,12 @@
+reload:
+0 common_draw4.wav
+14 uzi_clipout.wav
+59 uzi_clipin.wav
+77 uzi_boltpull.wav
+
+draw:
+0 common_draw4.wav
+12 uzi_boltpull.wav
+
+empty:
+common_empty.wav

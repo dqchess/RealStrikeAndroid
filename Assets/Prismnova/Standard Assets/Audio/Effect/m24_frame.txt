@@ -1,0 +1,18 @@
+fire:
+0 m24_fire.wav
+22 m24_bolt.wav
+
+start_reload:
+12 m24_start_reload.wav
+
+end_reload:
+5 m24_after_reload.wav
+
+reload:
+8 common_empty.wav
+
+draw:
+0 common_draw.wav
+
+empty:
+common_empty2.wav

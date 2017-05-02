@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: a70ddede63622d840a78155f999677f6
+timeCreated: 1476275171
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 01
+    100002: 02
+    100004: a_WeaponParent
+    100006: bolt
+    100008: //RootNode
+    100010: gun
+    100012: mag
+    100014: R_Dummy
+    100016: Right_Finger0
+    100018: Right_Finger01
+    100020: Right_Finger02
+    100022: Right_Finger1
+    100024: Right_Finger11
+    100026: Right_Finger12
+    100028: Right_Finger2
+    100030: Right_Finger21
+    100032: Right_Finger22
+    100034: Right_Finger3
+    100036: Right_Finger31
+    100038: Right_Finger32
+    100040: Right_Finger4
+    100042: Right_Finger41
+    100044: Right_Finger42
+    100046: Right_Hand
+    100048: Right_L_Arm
+    100050: Right_U_Arm
+    100052: trigger
+    400000: 01
+    400002: 02
+    400004: a_WeaponParent
+    400006: bolt
+    400008: //RootNode
+    400010: gun
+    400012: mag
+    400014: R_Dummy
+    400016: Right_Finger0
+    400018: Right_Finger01
+    400020: Right_Finger02
+    400022: Right_Finger1
+    400024: Right_Finger11
+    400026: Right_Finger12
+    400028: Right_Finger2
+    400030: Right_Finger21
+    400032: Right_Finger22
+    400034: Right_Finger3
+    400036: Right_Finger31
+    400038: Right_Finger32
+    400040: Right_Finger4
+    400042: Right_Finger41
+    400044: Right_Finger42
+    400046: Right_Hand
+    400048: Right_L_Arm
+    400050: Right_U_Arm
+    400052: trigger
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: PlayAudio
+        data: common_draw6
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: R_Dummy
+        weight: 1
+      - path: R_Dummy/Right_U_Arm
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger0
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger0/Right_Finger01
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger0/Right_Finger01/Right_Finger02
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger1
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger1/Right_Finger11
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger1/Right_Finger11/Right_Finger12
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger2
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger2/Right_Finger21
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger2/Right_Finger21/Right_Finger22
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger3
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger3/Right_Finger31
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger3/Right_Finger31/Right_Finger32
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger4
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger4/Right_Finger41
+        weight: 1
+      - path: R_Dummy/Right_U_Arm/Right_L_Arm/Right_Hand/Right_Finger4/Right_Finger41/Right_Finger42
+        weight: 1
+      - path: a_WeaponParent
+        weight: 1
+      - path: a_WeaponParent/gun
+        weight: 1
+      - path: a_WeaponParent/gun/01
+        weight: 1
+      - path: a_WeaponParent/gun/02
+        weight: 1
+      - path: a_WeaponParent/gun/bolt
+        weight: 1
+      - path: a_WeaponParent/gun/mag
+        weight: 1
+      - path: a_WeaponParent/gun/trigger
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

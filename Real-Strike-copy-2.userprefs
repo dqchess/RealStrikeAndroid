@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Prismnova/aimPve/Script/BombComtrol.cs">
+    <Files>
+      <File FileName="Assets/VuforiaFocusMode.cs" Line="11" Column="6" />
+      <File FileName="Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" Line="104" Column="14" />
+      <File FileName="Assets/Prismnova/Resources/Script/Ex/ARRealLight.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShakeBhvr.cs" Line="1" Column="1" />
+      <File FileName="Assets/Vuforia/Scripts/VuforiaBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_LinearLight.cs" Line="1" Column="1" />
+      <File FileName="Assets/Prismnova/aimPve/Script/aimManager.cs" Line="328" Column="66" />
+      <File FileName="Assets/Prismnova/aimPve/Script/Gravity.cs" Line="26" Column="3" />
+      <File FileName="Assets/Prismnova/aimPve/Script/BombComtrol.cs" Line="24" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

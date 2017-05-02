@@ -1,0 +1,16 @@
+reload:
+0 common_draw4.wav
+29 cm901_clipout.wav
+93 cm901_clipin.wav
+130 scar_h_hit.wav
+181 as50_boltpull.wav
+
+draw:
+0 common_draw.wav
+
+empty:
+common_empty.wav
+
+fire:
+0 aw_l118a_fire.wav
+24 aw_l118a_bolt.wav

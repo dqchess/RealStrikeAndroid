@@ -1,0 +1,15 @@
+reload:
+0 common_draw4.wav
+18 m249_boxout.wav
+41 m249_boxin.wav
+60 m249_chain.wav
+87 scar_h_hit.wav
+
+draw:
+0 common_draw5.wav
+
+empty:
+common_empty5.wav
+
+fire:
+lrrs_fire.wav

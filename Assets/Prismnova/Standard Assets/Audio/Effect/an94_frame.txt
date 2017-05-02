@@ -1,0 +1,16 @@
+reload:
+0 common_draw5.wav
+11 mp7_boltslap.wav
+37 scar_h_clipout.wav
+105 scar_h_clipin.wav
+142 p90_hit.wav
+
+draw:
+0 common_draw5.wav
+9 ak47_boltpull.wav
+
+empty:
+common_empty5.wav
+
+fire:
+3 an94_fire.wav

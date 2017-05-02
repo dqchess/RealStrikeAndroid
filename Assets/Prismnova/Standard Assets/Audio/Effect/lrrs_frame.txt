@@ -1,0 +1,29 @@
+fire:
+0 lrrs_fire.wav
+15 aw_l118a_bolt.wav
+
+start_reload:
+9 lrrs_r1.wav
+24 common_draw5.wav
+33 lrrs_r2.wav
+
+end_reload:
+112 lrrs_r3.wav.wav
+ 
+draw:
+common_draw3.wav
+
+end_p:
+36
+50
+64
+78
+92
+
+bullet_insert:
+lrrs_r4.wav
+44
+58
+71
+85
+99

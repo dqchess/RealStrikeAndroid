@@ -1,0 +1,14 @@
+reload:
+7 striker_insert.wav
+
+draw:
+common_draw4.wav
+
+empty:
+common_empty2.wav
+
+start_reload:
+none
+
+after_reload:
+none

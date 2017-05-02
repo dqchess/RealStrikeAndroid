@@ -1,0 +1,15 @@
+reload:
+0 common_draw2.wav
+30 p90_clipout.wav
+56 common_throw.wav
+120 p90_clipin.wav
+146 p90_hit.wav
+184 p90_boltpull.wav
+
+draw:
+0 common_draw2.wav
+30 p90_boltpull.wav
+
+empty:
+common_empty.wav
+

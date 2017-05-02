@@ -1,0 +1,13 @@
+reload:
+0 common_draw.wav
+17 glock18_clipout.wav
+41 glock18_clipin.wav
+64 usp_bolt.wav
+
+draw:
+0 common_draw.wav
+16 usp_slide_release.wav
+
+empty:
+common_empty2.wav
+

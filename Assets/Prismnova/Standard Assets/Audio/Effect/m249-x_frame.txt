@@ -1,0 +1,15 @@
+reload:
+0 m249-x_click2.wav
+16 m249-x_pull.wav
+66 m82_clipin.wav
+92 m249-x_pull.wav
+132 m249-x_click2.wav
+
+draw:
+18 m249-x_draw.wav
+
+empty:
+m249-x_click.wav
+
+fire:
+sfgun_fire.wav

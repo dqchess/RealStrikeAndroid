@@ -1,0 +1,18 @@
+reload:
+0 common_draw4.wav
+15 fn57_clip_out.wav
+40 fn57_clip_in.wav
+61 fn57_clip_in.wav
+77 fn57_slide_release.wav
+84 fn57_slide_release.wav
+
+draw:
+0 common_draw.wav
+23 fn57_slide_release.wav
+29 fn57_slide_release.wav
+
+empty:
+common_empty.wav
+
+fire:
+fn57_fire.wav

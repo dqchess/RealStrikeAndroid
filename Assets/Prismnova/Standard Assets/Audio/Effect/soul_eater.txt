@@ -1,0 +1,11 @@
+reload:
+8 soul_eater_reload.wav
+34 m249_boxin.wav
+46 mp5_bolt.wav
+
+draw:
+0 soul_eater_fx1.wav
+28 soul_eater_fx2.wav
+
+empty:
+common_empty3.wav

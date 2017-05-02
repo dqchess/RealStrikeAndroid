@@ -1,0 +1,19 @@
+draw:
+0 common_draw4.wav
+13 ksg_pump.wav
+
+start_reload:
+0 common_draw4.wav
+
+after_reload:
+11 ksg_pump.wav
+
+reload:
+3 ksg_insert.wav
+
+fire:
+#frame rate must be 25
+0 ksg_fire.wav
+
+empty:
+common_empty2.wav

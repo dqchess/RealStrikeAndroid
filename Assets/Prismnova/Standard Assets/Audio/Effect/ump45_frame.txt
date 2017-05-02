@@ -1,0 +1,12 @@
+reload:
+0 common_draw4.wav
+11 ump45_clipout.wav
+22 common_throw.wav
+44 ump45_clipin.wav
+72 ump45_hit.wav
+
+draw:
+#frame rate must be 30 
+
+empty:
+common_empty.wav

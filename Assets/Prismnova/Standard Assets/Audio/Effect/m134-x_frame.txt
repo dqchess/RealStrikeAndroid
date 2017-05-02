@@ -1,0 +1,14 @@
+reload
+0 common_draw6.wav
+34 m134_pull.wav
+53 m134_out.wav
+96 m134_in.wav
+
+draw:
+m134-x_draw.wav
+
+empty:
+common_empty3.wav
+
+fire:
+m134_fire.wav

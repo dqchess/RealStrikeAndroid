@@ -1,0 +1,12 @@
+reload:
+0 common_draw5.wav
+22 sass_hit.wav
+28 sass_clipout.wav
+60 sass_clipin.wav
+89 sass_boltpull.wav
+
+draw:
+0 common_draw6.wav
+
+empty:
+common_empty3.wav

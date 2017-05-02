@@ -1,0 +1,16 @@
+reload:
+0 common_draw4.wav
+11 m249_coverup.wav
+35 m134_out.wav
+73 m134_in.wav
+87 m249_chain.wav
+112 m249_coverdown.wav
+
+draw:
+0 common_draw2.wav
+
+empty:
+common_empty2.wav
+
+fire:
+acr_fire.wav

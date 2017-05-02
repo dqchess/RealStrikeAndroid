@@ -1,0 +1,15 @@
+shoot1:
+m1887_fire.wav
+m1887_click.wav
+
+shoot2:
+m1887_fire2.wav
+
+draw:
+m1887_draw.wav
+
+empty:
+common_empty2.wav
+
+start_reload:
+none

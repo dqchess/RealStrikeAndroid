@@ -1,0 +1,22 @@
+reload:
+0 common_draw4.wav
+5 glock18_click.wav
+8 glock18_click.wav
+19 glock18_clipout.wav
+28 glock18_clipout.wav
+45 glock18_clipin.wav
+60 glock18_clipin.wav
+79 usp_bolt.wav
+89 usp_bolt.wav
+
+draw:
+0 common_draw4.wav
+21 glock18_slide_release.wav
+25 glock18_slide_release.wav
+
+empty:
+common_empty2.wav
+
+fire:
+glock18_fire.wav
+usp_fire.wav

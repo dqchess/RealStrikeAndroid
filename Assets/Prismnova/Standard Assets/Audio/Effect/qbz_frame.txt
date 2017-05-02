@@ -1,0 +1,12 @@
+reload:
+0 common_draw4.wav
+19 qbz_clipout.wav
+45 qbz_clipin.wav
+66 qbz_boltpull.wav
+
+draw:
+0 common_draw4.wav
+
+empty:
+common_empty3.wav
+

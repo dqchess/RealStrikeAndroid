@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: fcef5d78f8a5f3840b61b6702da898f6
+timeCreated: 1475074306
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AR_SCAR
+    100002: AR_SCAR_Lever
+    100004: AR_SCAR_Magazine
+    100006: AR_SCAR_Magazine01
+    100008: Bip01
+    100010: Bip01 L Clavicle
+    100012: Bip01 L Finger0
+    100014: Bip01 L Finger01
+    100016: Bip01 L Finger02
+    100018: Bip01 L Finger1
+    100020: Bip01 L Finger11
+    100022: Bip01 L Finger12
+    100024: Bip01 L Finger2
+    100026: Bip01 L Finger21
+    100028: Bip01 L Finger22
+    100030: Bip01 L Finger3
+    100032: Bip01 L Finger31
+    100034: Bip01 L Finger32
+    100036: Bip01 L Finger4
+    100038: Bip01 L Finger41
+    100040: Bip01 L Finger42
+    100042: Bip01 L Forearm
+    100044: Bip01 L ForeTwist
+    100046: Bip01 L ForeTwist1
+    100048: Bip01 L ForeTwist2
+    100050: bip01 l hand
+    100052: Bip01 L UpperArm
+    100054: Bip01 R Clavicle
+    100056: Bip01 R Finger0
+    100058: Bip01 R Finger01
+    100060: Bip01 R Finger02
+    100062: Bip01 R Finger1
+    100064: Bip01 R Finger11
+    100066: Bip01 R Finger12
+    100068: Bip01 R Finger2
+    100070: Bip01 R Finger21
+    100072: Bip01 R Finger22
+    100074: Bip01 R Finger3
+    100076: Bip01 R Finger31
+    100078: Bip01 R Finger32
+    100080: Bip01 R Finger4
+    100082: Bip01 R Finger41
+    100084: Bip01 R Finger42
+    100086: Bip01 R Forearm
+    100088: Bip01 R ForeTwist
+    100090: Bip01 R ForeTwist1
+    100092: Bip01 R ForeTwist2
+    100094: Bip01 R Hand
+    100096: Bip01 R UpperArm
+    100098: Bip01 Spine
+    100100: Bone_Aim
+    100102: Bone_BoltLever
+    100104: Bone_CaseEjector
+    100106: Bone_Flash
+    100108: Bone_Magazine
+    100110: Bone_Magazine01
+    100112: Bone_Pibot01
+    100114: Bone_Pitch
+    100116: Bone_weapon
+    100118: Camera001
+    100120: Camera001.Target
+    100122: Camera002
+    100124: Camera002.Target
+    100126: Camera003
+    100128: Camera003.Target
+    100130: Camera004
+    100132: Camera004.Target
+    100134: Camera005
+    100136: Camera005.Target
+    100138: Camera006
+    100140: Camera006.Target
+    100142: Camera007
+    100144: Camera007.Target
+    100146: Camera008
+    100148: Camera008.Target
+    100150: Dummy001
+    100152: Dummy_Main
+    100154: Omni001
+    100156: Omni002
+    100158: Omni003
+    100160: //RootNode
+    100162: SMDImport
+    100164: SMDImport001
+    100166: SMDImport002
+    100168: SMDImport003
+    100170: Spot001
+    100172: Spot001.Target
+    100174: XXXX_Dummy
+    400000: AR_SCAR
+    400002: AR_SCAR_Lever
+    400004: AR_SCAR_Magazine
+    400006: AR_SCAR_Magazine01
+    400008: Bip01
+    400010: Bip01 L Clavicle
+    400012: Bip01 L Finger0
+    400014: Bip01 L Finger01
+    400016: Bip01 L Finger02
+    400018: Bip01 L Finger1
+    400020: Bip01 L Finger11
+    400022: Bip01 L Finger12
+    400024: Bip01 L Finger2
+    400026: Bip01 L Finger21
+    400028: Bip01 L Finger22
+    400030: Bip01 L Finger3
+    400032: Bip01 L Finger31
+    400034: Bip01 L Finger32
+    400036: Bip01 L Finger4
+    400038: Bip01 L Finger41
+    400040: Bip01 L Finger42
+    400042: Bip01 L Forearm
+    400044: Bip01 L ForeTwist
+    400046: Bip01 L ForeTwist1
+    400048: Bip01 L ForeTwist2
+    400050: bip01 l hand
+    400052: Bip01 L UpperArm
+    400054: Bip01 R Clavicle
+    400056: Bip01 R Finger0
+    400058: Bip01 R Finger01
+    400060: Bip01 R Finger02
+    400062: Bip01 R Finger1
+    400064: Bip01 R Finger11
+    400066: Bip01 R Finger12
+    400068: Bip01 R Finger2
+    400070: Bip01 R Finger21
+    400072: Bip01 R Finger22
+    400074: Bip01 R Finger3
+    400076: Bip01 R Finger31
+    400078: Bip01 R Finger32
+    400080: Bip01 R Finger4
+    400082: Bip01 R Finger41
+    400084: Bip01 R Finger42
+    400086: Bip01 R Forearm
+    400088: Bip01 R ForeTwist
+    400090: Bip01 R ForeTwist1
+    400092: Bip01 R ForeTwist2
+    400094: Bip01 R Hand
+    400096: Bip01 R UpperArm
+    400098: Bip01 Spine
+    400100: Bone_Aim
+    400102: Bone_BoltLever
+    400104: Bone_CaseEjector
+    400106: Bone_Flash
+    400108: Bone_Magazine
+    400110: Bone_Magazine01
+    400112: Bone_Pibot01
+    400114: Bone_Pitch
+    400116: Bone_weapon
+    400118: Camera001
+    400120: Camera001.Target
+    400122: Camera002
+    400124: Camera002.Target
+    400126: Camera003
+    400128: Camera003.Target
+    400130: Camera004
+    400132: Camera004.Target
+    400134: Camera005
+    400136: Camera005.Target
+    400138: Camera006
+    400140: Camera006.Target
+    400142: Camera007
+    400144: Camera007.Target
+    400146: Camera008
+    400148: Camera008.Target
+    400150: Dummy001
+    400152: Dummy_Main
+    400154: Omni001
+    400156: Omni002
+    400158: Omni003
+    400160: //RootNode
+    400162: SMDImport
+    400164: SMDImport001
+    400166: SMDImport002
+    400168: SMDImport003
+    400170: Spot001
+    400172: Spot001.Target
+    400174: XXXX_Dummy
+    4300000: SMDImport
+    4300002: SMDImport001
+    4300004: SMDImport002
+    4300006: SMDImport003
+    9500000: //RootNode
+    13700000: SMDImport
+    13700002: SMDImport001
+    13700004: SMDImport002
+    13700006: SMDImport003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

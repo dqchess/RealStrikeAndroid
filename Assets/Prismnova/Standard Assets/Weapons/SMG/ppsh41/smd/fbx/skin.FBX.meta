@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 7001777cec694874d98a778f8f14839b
+timeCreated: 1475771182
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bolt_and_bloc
+    100002: Bone06
+    100004: Bone07
+    100006: Bone08
+    100008: Bone10
+    100010: Bone11
+    100012: Bone12
+    100014: Bone14
+    100016: Bone15
+    100018: Bone16
+    100020: Bone18
+    100022: Bone19
+    100024: Bone20
+    100026: Bone22
+    100028: Bone23
+    100030: Bone24
+    100032: Camera001
+    100034: Camera001.Target
+    100036: Camera002
+    100038: Camera002.Target
+    100040: Camera003
+    100042: Camera003.Target
+    100044: Camera004
+    100046: Camera004.Target
+    100048: Camera005
+    100050: Camera005.Target
+    100052: Camera006
+    100054: Camera006.Target
+    100056: Camera007
+    100058: Camera007.Target
+    100060: Dummy01
+    100062: Dummy02
+    100064: Left1
+    100066: Left10
+    100068: Left11
+    100070: Left12
+    100072: Left13
+    100074: Left14
+    100076: Left15
+    100078: Left2
+    100080: Left3
+    100082: Left4
+    100084: Left5
+    100086: Left6
+    100088: Left7
+    100090: Left8
+    100092: Left9
+    100094: Left_Hand
+    100096: Left_L_Arm
+    100098: Left_U_Arm
+    100100: Mag
+    100102: PhotometricLight001
+    100104: PhotometricLight002
+    100106: PhotometricLight003
+    100108: PPhS_41
+    100110: Right_Hand
+    100112: Right_L_Arm
+    100114: Right_U_Arm
+    100116: //RootNode
+    100118: SMDImport
+    100120: SMDImport001
+    100122: SMDImport003
+    100124: Triger
+    400000: Bolt_and_bloc
+    400002: Bone06
+    400004: Bone07
+    400006: Bone08
+    400008: Bone10
+    400010: Bone11
+    400012: Bone12
+    400014: Bone14
+    400016: Bone15
+    400018: Bone16
+    400020: Bone18
+    400022: Bone19
+    400024: Bone20
+    400026: Bone22
+    400028: Bone23
+    400030: Bone24
+    400032: Camera001
+    400034: Camera001.Target
+    400036: Camera002
+    400038: Camera002.Target
+    400040: Camera003
+    400042: Camera003.Target
+    400044: Camera004
+    400046: Camera004.Target
+    400048: Camera005
+    400050: Camera005.Target
+    400052: Camera006
+    400054: Camera006.Target
+    400056: Camera007
+    400058: Camera007.Target
+    400060: Dummy01
+    400062: Dummy02
+    400064: Left1
+    400066: Left10
+    400068: Left11
+    400070: Left12
+    400072: Left13
+    400074: Left14
+    400076: Left15
+    400078: Left2
+    400080: Left3
+    400082: Left4
+    400084: Left5
+    400086: Left6
+    400088: Left7
+    400090: Left8
+    400092: Left9
+    400094: Left_Hand
+    400096: Left_L_Arm
+    400098: Left_U_Arm
+    400100: Mag
+    400102: PhotometricLight001
+    400104: PhotometricLight002
+    400106: PhotometricLight003
+    400108: PPhS_41
+    400110: Right_Hand
+    400112: Right_L_Arm
+    400114: Right_U_Arm
+    400116: //RootNode
+    400118: SMDImport
+    400120: SMDImport001
+    400122: SMDImport003
+    400124: Triger
+    4300000: SMDImport001
+    4300002: SMDImport003
+    4300004: SMDImport
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: SMDImport
+    13700002: SMDImport001
+    13700004: SMDImport003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 46
+      lastFrame: 138
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PPhS_41
+        weight: 1
+      - path: Bolt_and_bloc
+        weight: 1
+      - path: Mag
+        weight: 1
+      - path: Triger
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone22
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone22/Bone23
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone22/Bone23/Bone24
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone06
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone06/Bone07
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone06/Bone07/Bone08
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone10/Bone11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone10/Bone11/Bone12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone14/Bone15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone14/Bone15/Bone16
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone18
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone18/Bone19
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone18/Bone19/Bone20
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: SMDImport001
+        weight: 1
+      - path: SMDImport003
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: Camera002
+        weight: 1
+      - path: Camera002.Target
+        weight: 1
+      - path: Camera003
+        weight: 1
+      - path: Camera003.Target
+        weight: 1
+      - path: Camera004
+        weight: 1
+      - path: Camera004.Target
+        weight: 1
+      - path: Camera005
+        weight: 1
+      - path: SMDImport
+        weight: 1
+      - path: Camera005.Target
+        weight: 1
+      - path: Camera006
+        weight: 1
+      - path: Camera006.Target
+        weight: 1
+      - path: Camera007
+        weight: 1
+      - path: Camera007.Target
+        weight: 1
+      - path: PhotometricLight001
+        weight: 1
+      - path: PhotometricLight002
+        weight: 1
+      - path: PhotometricLight003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

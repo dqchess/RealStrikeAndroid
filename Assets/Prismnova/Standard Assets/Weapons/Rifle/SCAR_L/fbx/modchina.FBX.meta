@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: b78cd0cd5fff422429161c2494fcae93
+timeCreated: 1476176436
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AR_SCAR
+    100002: AR_SCAR_Lever
+    100004: AR_SCAR_Magazine
+    100006: Bip01
+    100008: Bip01 L Clavicle
+    100010: Bip01 L Finger0
+    100012: Bip01 L Finger01
+    100014: Bip01 L Finger02
+    100016: Bip01 L Finger1
+    100018: Bip01 L Finger11
+    100020: Bip01 L Finger12
+    100022: Bip01 L Finger2
+    100024: Bip01 L Finger21
+    100026: Bip01 L Finger22
+    100028: Bip01 L Finger3
+    100030: Bip01 L Finger31
+    100032: Bip01 L Finger32
+    100034: Bip01 L Finger4
+    100036: Bip01 L Finger41
+    100038: Bip01 L Finger42
+    100040: Bip01 L Forearm
+    100042: Bip01 L ForeTwist
+    100044: Bip01 L ForeTwist1
+    100046: Bip01 L ForeTwist2
+    100048: bip01 l hand
+    100050: Bip01 L UpperArm
+    100052: Bip01 Spine
+    100054: Bone_Aim
+    100056: Bone_BoltLever
+    100058: Bone_CaseEjector
+    100060: Bone_Flash
+    100062: Bone_Magazine
+    100064: Bone_Pibot01
+    100066: Bone_Pitch
+    100068: Bone_weapon
+    100070: Dummy_Main
+    100072: //RootNode
+    100074: XXXX_Dummy
+    400000: AR_SCAR
+    400002: AR_SCAR_Lever
+    400004: AR_SCAR_Magazine
+    400006: Bip01
+    400008: Bip01 L Clavicle
+    400010: Bip01 L Finger0
+    400012: Bip01 L Finger01
+    400014: Bip01 L Finger02
+    400016: Bip01 L Finger1
+    400018: Bip01 L Finger11
+    400020: Bip01 L Finger12
+    400022: Bip01 L Finger2
+    400024: Bip01 L Finger21
+    400026: Bip01 L Finger22
+    400028: Bip01 L Finger3
+    400030: Bip01 L Finger31
+    400032: Bip01 L Finger32
+    400034: Bip01 L Finger4
+    400036: Bip01 L Finger41
+    400038: Bip01 L Finger42
+    400040: Bip01 L Forearm
+    400042: Bip01 L ForeTwist
+    400044: Bip01 L ForeTwist1
+    400046: Bip01 L ForeTwist2
+    400048: bip01 l hand
+    400050: Bip01 L UpperArm
+    400052: Bip01 Spine
+    400054: Bone_Aim
+    400056: Bone_BoltLever
+    400058: Bone_CaseEjector
+    400060: Bone_Flash
+    400062: Bone_Magazine
+    400064: Bone_Pibot01
+    400066: Bone_Pitch
+    400068: Bone_weapon
+    400070: Dummy_Main
+    400072: //RootNode
+    400074: XXXX_Dummy
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: PlayAudio
+        data: common_draw2
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.35294116
+        functionName: PlayAudio
+        data: cm901_boltpull
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: XXXX_Dummy
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bone_weapon
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bone_weapon/Bone_Magazine
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bone_weapon/Bone_Magazine/AR_SCAR_Magazine
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bone_weapon/Bone_BoltLever
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bone_weapon/Bone_BoltLever/AR_SCAR_Lever
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bone_weapon/Bone_Flash
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bone_weapon/Bone_CaseEjector
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bone_weapon/AR_SCAR
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger0
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger0/Bip01
+          L Finger01
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger0/Bip01
+          L Finger01/Bip01 L Finger02
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger1
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger1/Bip01
+          L Finger11
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger1/Bip01
+          L Finger11/Bip01 L Finger12
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger2
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger2/Bip01
+          L Finger21
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger2/Bip01
+          L Finger21/Bip01 L Finger22
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger3
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger3/Bip01
+          L Finger31
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger3/Bip01
+          L Finger31/Bip01 L Finger32
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger4
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger4/Bip01
+          L Finger41
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L Forearm/bip01 l hand/Bip01 L Finger4/Bip01
+          L Finger41/Bip01 L Finger42
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L ForeTwist
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L ForeTwist/Bip01 L ForeTwist1
+        weight: 1
+      - path: XXXX_Dummy/Dummy_Main/Bone_Aim/Bone_Pitch/Bone_Pibot01/Bip01/Bip01 Spine/Bip01
+          L Clavicle/Bip01 L UpperArm/Bip01 L ForeTwist/Bip01 L ForeTwist1/Bip01 L
+          ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

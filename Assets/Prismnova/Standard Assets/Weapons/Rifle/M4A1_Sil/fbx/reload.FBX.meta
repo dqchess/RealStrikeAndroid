@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: 39e78ba7e9f619147b4a82464be13bdb
+timeCreated: 1475483775
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bolt
+    100002: DrawCall_0
+    100004: DrawCall_0009
+    100006: frame l forearm
+    100008: frame l index low
+    100010: frame l index mid
+    100012: frame l index tip
+    100014: frame l middle mid
+    100016: frame l middle tip
+    100018: frame l middlelow
+    100020: frame l pinky low
+    100022: frame l pinky mid
+    100024: frame l pinky tip
+    100026: frame l ring low
+    100028: frame l ring mid
+    100030: frame l ring tip
+    100032: frame l thumb low
+    100034: frame l thumb mid
+    100036: frame l thumb tip
+    100038: frame l upperarm
+    100040: frame l wriste
+    100042: frame r index low
+    100044: frame r index mid
+    100046: frame r index tip
+    100048: frame r middle low
+    100050: frame r middle mid
+    100052: frame r middle tip
+    100054: frame r pinky low
+    100056: frame r pinky mid
+    100058: frame r pinky tip
+    100060: frame r ring low
+    100062: frame r ring mid
+    100064: frame r ring tip
+    100066: frame r thumb low
+    100068: frame r thumb mid
+    100070: frame r thumb tip
+    100072: frame r upperarm
+    100074: frame r wriste
+    100076: frame rl forearm
+    100078: m4-mag
+    100080: //RootNode
+    400000: bolt
+    400002: DrawCall_0
+    400004: DrawCall_0009
+    400006: frame l forearm
+    400008: frame l index low
+    400010: frame l index mid
+    400012: frame l index tip
+    400014: frame l middle mid
+    400016: frame l middle tip
+    400018: frame l middlelow
+    400020: frame l pinky low
+    400022: frame l pinky mid
+    400024: frame l pinky tip
+    400026: frame l ring low
+    400028: frame l ring mid
+    400030: frame l ring tip
+    400032: frame l thumb low
+    400034: frame l thumb mid
+    400036: frame l thumb tip
+    400038: frame l upperarm
+    400040: frame l wriste
+    400042: frame r index low
+    400044: frame r index mid
+    400046: frame r index tip
+    400048: frame r middle low
+    400050: frame r middle mid
+    400052: frame r middle tip
+    400054: frame r pinky low
+    400056: frame r pinky mid
+    400058: frame r pinky tip
+    400060: frame r ring low
+    400062: frame r ring mid
+    400064: frame r ring tip
+    400066: frame r thumb low
+    400068: frame r thumb mid
+    400070: frame r thumb tip
+    400072: frame r upperarm
+    400074: frame r wriste
+    400076: frame rl forearm
+    400078: m4-mag
+    400080: //RootNode
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: PlayAudio
+        data: common_draw6
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.17894736
+        functionName: PlayAudio
+        data: m4a1_clipout
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.25263157
+        functionName: PlayAudio
+        data: common_draw3
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.43157893
+        functionName: PlayAudio
+        data: m4a1_clipin
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6526316
+        functionName: PlayAudio
+        data: m4a1_boltpull
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.95
+        functionName: OnReloadComplete
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DrawCall_0
+        weight: 1
+      - path: DrawCall_0/bolt
+        weight: 1
+      - path: DrawCall_0/m4-mag
+        weight: 1
+      - path: DrawCall_0/DrawCall_0009
+        weight: 1
+      - path: frame l upperarm
+        weight: 1
+      - path: frame l upperarm/frame l forearm
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l middlelow
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l middlelow/frame
+          l middle mid
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l middlelow/frame
+          l middle mid/frame l middle tip
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l index low
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l index low/frame
+          l index mid
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l index low/frame
+          l index mid/frame l index tip
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l ring low
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l ring low/frame
+          l ring mid
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l ring low/frame
+          l ring mid/frame l ring tip
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l pinky low
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l pinky low/frame
+          l pinky mid
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l pinky low/frame
+          l pinky mid/frame l pinky tip
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l thumb low
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l thumb low/frame
+          l thumb mid
+        weight: 1
+      - path: frame l upperarm/frame l forearm/frame l wriste/frame l thumb low/frame
+          l thumb mid/frame l thumb tip
+        weight: 1
+      - path: frame r upperarm
+        weight: 1
+      - path: frame r upperarm/frame rl forearm
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r middle low
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r middle low/frame
+          r middle mid
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r middle low/frame
+          r middle mid/frame r middle tip
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r thumb low
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r thumb low/frame
+          r thumb mid
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r thumb low/frame
+          r thumb mid/frame r thumb tip
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r pinky low
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r pinky low/frame
+          r pinky mid
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r pinky low/frame
+          r pinky mid/frame r pinky tip
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r index low
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r index low/frame
+          r index mid
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r index low/frame
+          r index mid/frame r index tip
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r ring low
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r ring low/frame
+          r ring mid
+        weight: 1
+      - path: frame r upperarm/frame rl forearm/frame r wriste/frame r ring low/frame
+          r ring mid/frame r ring tip
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

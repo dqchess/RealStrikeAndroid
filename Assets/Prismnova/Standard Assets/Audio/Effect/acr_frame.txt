@@ -1,0 +1,10 @@
+reload:
+0 acr_clipout.wav
+34 acr_clipin.wav
+58 acr_hit.wav
+
+draw:
+acr_draw.wav
+
+empty:
+common_empty2.wav

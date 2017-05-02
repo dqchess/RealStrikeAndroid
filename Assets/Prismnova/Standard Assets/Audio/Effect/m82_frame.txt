@@ -1,0 +1,13 @@
+reload:
+0 m82_reload.wav
+52 m82_clipout.wav
+158 m82_clipin.wav
+223 m82_boltpull.wav
+
+draw: 
+#Í¬Ê±·Å
+0 common_draw2.wav
+7 m82_boltpull.wav
+
+empty:
+common_empty2.wav

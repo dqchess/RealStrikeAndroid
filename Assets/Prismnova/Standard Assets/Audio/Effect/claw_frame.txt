@@ -1,0 +1,11 @@
+draw:
+0 claw_draw.wav
+32 claw_clash.wav
+
+fire:
+8 claw_stab.wav
+28 claw_stab.wav
+
+idle:
+235 claw_clash.wav
+244 claw_clash.wav

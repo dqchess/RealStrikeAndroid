@@ -1,0 +1,371 @@
+fileFormatVersion: 2
+guid: 3a0a2a5b41ee78a4da30628a03646d55
+timeCreated: 1475665091
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera001
+    100002: Camera001.Target
+    100004: Camera002
+    100006: Camera002.Target
+    100008: Camera003
+    100010: Camera003.Target
+    100012: Camera005
+    100014: Camera005.Target
+    100016: Camera006
+    100018: Camera006.Target
+    100020: Camera007
+    100022: Camera007.Target
+    100024: Camera008
+    100026: Camera008.Target
+    100028: Dummy001
+    100030: Dummy002
+    100032: Gun
+    100034: Gun01
+    100036: l forearm
+    100038: l index low
+    100040: l index mid
+    100042: l indextip
+    100044: l middle mid
+    100046: l middle tip
+    100048: l middlelow
+    100050: l pinky low
+    100052: l pinky mid
+    100054: l pinky tip
+    100056: l ring low
+    100058: l ring mid
+    100060: l ring tip
+    100062: l thumb low
+    100064: l thumb mid
+    100066: l thumb tip
+    100068: l upperarm
+    100070: l wriste
+    100072: mag
+    100074: mag01
+    100076: Omni001
+    100078: Omni002
+    100080: r forearm
+    100082: r index low
+    100084: r index mid
+    100086: r indextip
+    100088: r middle mid
+    100090: r middle tip
+    100092: r middlelow
+    100094: r pinky low
+    100096: r pinky mid
+    100098: r pinky tip
+    100100: r ring low
+    100102: r ring mid
+    100104: r ring tip
+    100106: r thumb low
+    100108: r thumb mid
+    100110: r thumb tip
+    100112: r upperarm
+    100114: r wriste
+    100116: //RootNode
+    100118: slide
+    100120: slide01
+    100122: SMDImport
+    100124: SMDImport001
+    100126: SMDImport002
+    400000: Camera001
+    400002: Camera001.Target
+    400004: Camera002
+    400006: Camera002.Target
+    400008: Camera003
+    400010: Camera003.Target
+    400012: Camera005
+    400014: Camera005.Target
+    400016: Camera006
+    400018: Camera006.Target
+    400020: Camera007
+    400022: Camera007.Target
+    400024: Camera008
+    400026: Camera008.Target
+    400028: Dummy001
+    400030: Dummy002
+    400032: Gun
+    400034: Gun01
+    400036: l forearm
+    400038: l index low
+    400040: l index mid
+    400042: l indextip
+    400044: l middle mid
+    400046: l middle tip
+    400048: l middlelow
+    400050: l pinky low
+    400052: l pinky mid
+    400054: l pinky tip
+    400056: l ring low
+    400058: l ring mid
+    400060: l ring tip
+    400062: l thumb low
+    400064: l thumb mid
+    400066: l thumb tip
+    400068: l upperarm
+    400070: l wriste
+    400072: mag
+    400074: mag01
+    400076: Omni001
+    400078: Omni002
+    400080: r forearm
+    400082: r index low
+    400084: r index mid
+    400086: r indextip
+    400088: r middle mid
+    400090: r middle tip
+    400092: r middlelow
+    400094: r pinky low
+    400096: r pinky mid
+    400098: r pinky tip
+    400100: r ring low
+    400102: r ring mid
+    400104: r ring tip
+    400106: r thumb low
+    400108: r thumb mid
+    400110: r thumb tip
+    400112: r upperarm
+    400114: r wriste
+    400116: //RootNode
+    400118: slide
+    400120: slide01
+    400122: SMDImport
+    400124: SMDImport001
+    400126: SMDImport002
+    4300000: SMDImport
+    4300002: SMDImport001
+    4300004: SMDImport002
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: SMDImport
+    13700002: SMDImport001
+    13700004: SMDImport002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 97
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/r upperarm
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r index low
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r index low/r index mid
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r index low/r index mid/r indextip
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r thumb low
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r thumb low/r thumb mid
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r thumb low/r thumb mid/r thumb
+          tip
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r pinky low
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r pinky low/r pinky mid
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r pinky low/r pinky mid/r pinky
+          tip
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r middlelow
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r middlelow/r middle mid
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r middlelow/r middle mid/r middle
+          tip
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r ring low
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r ring low/r ring mid
+        weight: 1
+      - path: Dummy001/r upperarm/r forearm/r wriste/r ring low/r ring mid/r ring
+          tip
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Dummy002/l upperarm
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l index low
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l index low/l index mid
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l index low/l index mid/l indextip
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l middlelow
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l middlelow/l middle mid
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l middlelow/l middle mid/l middle
+          tip
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l ring low
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l ring low/l ring mid
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l ring low/l ring mid/l ring
+          tip
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l pinky low
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l pinky low/l pinky mid
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l pinky low/l pinky mid/l pinky
+          tip
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l thumb low
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l thumb low/l thumb mid
+        weight: 1
+      - path: Dummy002/l upperarm/l forearm/l wriste/l thumb low/l thumb mid/l thumb
+          tip
+        weight: 1
+      - path: Gun
+        weight: 1
+      - path: Gun/slide
+        weight: 1
+      - path: Gun/mag
+        weight: 1
+      - path: Gun01
+        weight: 1
+      - path: Gun01/slide01
+        weight: 1
+      - path: Gun01/mag01
+        weight: 1
+      - path: SMDImport
+        weight: 1
+      - path: SMDImport001
+        weight: 1
+      - path: SMDImport002
+        weight: 1
+      - path: Camera001
+        weight: 1
+      - path: Camera001.Target
+        weight: 1
+      - path: Camera002
+        weight: 1
+      - path: Camera002.Target
+        weight: 1
+      - path: Camera003
+        weight: 1
+      - path: Camera003.Target
+        weight: 1
+      - path: Omni001
+        weight: 1
+      - path: Omni002
+        weight: 1
+      - path: Camera005
+        weight: 1
+      - path: Camera005.Target
+        weight: 1
+      - path: Camera006
+        weight: 1
+      - path: Camera006.Target
+        weight: 1
+      - path: Camera007
+        weight: 1
+      - path: Camera007.Target
+        weight: 1
+      - path: Camera008
+        weight: 1
+      - path: Camera008.Target
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

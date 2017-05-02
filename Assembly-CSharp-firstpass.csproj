@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{B1F3F00B-FE8F-C78D-898A-46491BBE5CFD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;EVERYPLAY_ANDROID;VUFORIA_ANDROID_SETTINGS;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\FingerGestures\Dev\FingerDebug.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\ContinuousGestureRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\DiscreteGestureRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\FingerEventDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\GestureRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\GestureRecognizerDelegate.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Components\FingerClusterManager.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Components\ScreenRaycaster.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerDownDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerHoverDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerMotionDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerUpDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\FingerGestures.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\DragRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\LongPressRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PinchRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PointCloudGestureTemplate.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PointCloudRegognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\SwipeRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\TapRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\TwistRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGInputProvider.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGMouseInputProvider.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGTouchInputProvider.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBDragView.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBLookAtTap.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBOrbit.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBPan.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBPinchZoom.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBDragToMove.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBHoverChangeMaterial.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBHoverChangeScale.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBPinchToScale.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBQuickSetup.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBTwistToRotate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Config\ISD_Settings.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Enum\ISD_PlistValueTypes.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_Framework.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_Lib.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_Variable.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Scripts\Core\Models\ISD_VariableListed.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Addons\Soomla\Controllers\ISN_SoomlaGrow.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Addons\Soomla\Enum\ISN_SoomlaAction.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Addons\Soomla\Enum\ISN_SoomlaEvent.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Addons\Soomla\Enum\ISN_SoomlaProvider.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Core\IOSNativeSettings.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\GameCenterInvitations.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\GameCenterManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\GameCenter_RTM.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\GameCenter_TBM.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\ISN_CacheManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Controllers\ISN_GameSaves.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Models\GK_SavedGame.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Results\GK_FetchResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Results\GK_SaveDataLoaded.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Results\GK_SaveRemoveResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Results\GK_SaveResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\GKS\Results\GK_SavesResolveResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Enum\GK_CollectionType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Enum\GK_InviteRecipientResponse.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Enum\GK_MatchType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Enum\GK_PhotoSize.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Enum\GK_TimeSpan.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Models\GK_FriendRequest.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\GK_AchievementProgressResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\GK_LeaderboardResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\GK_PlayerSignatureResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\GK_UserInfoLoadResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\GK_UserPhotoLoadResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Results\ISN_LoadLeaderboardsInfoResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_AchievementTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_Invite.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_LeaderBoardInfo.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_Leaderboard.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_LeaderboardSet.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_LocalPlayerScoreUpdateListener.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_Player.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_Score.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\Generic\Templates\GK_ScoreCollection.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\RTM\Enum\GK_MatchSendDataMode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\RTM\Enum\GK_PlayerConnectionState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\RTM\Results\GK_RTM_MatchStartedResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\RTM\Results\GK_RTM_QueryActivityResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\RTM\Templates\GK_RTM_Match.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Enum\GK_TurnBasedMatchOutcome.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Enum\GK_TurnBasedMatchStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Enum\GK_TurnBasedParticipantStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_EndTrunResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_LoadMatchResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_LoadMatchesResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchDataUpdateResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchEndResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchInitResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchQuitResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchRemovedResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_MatchTurnResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Results\GK_TBM_RematchResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Templates\GK_TBM_Match.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\GameCenter\TBM\Templates\GK_TBM_Participant.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Camera\Controllers\IOSCamera.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Camera\Enum\ISN_ImageSource.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Camera\Results\IOSImagePickResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Gallery\Controllers\ISN_FilePicker.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Gallery\Enum\IOSGalleryLoadImageFormat.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Gallery\Results\ISN_FilePickerResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Controllers\ISN_MediaController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Enum\MP_MusicPlaybackState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Enum\MP_MusicRepeatMode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Enum\MP_MusicShuffleMode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Models\MP_MediaItem.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\MediaPlayer\Results\MP_MediaPickerResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Video\Controllers\IOSVideoManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Video\Controllers\ISN_ReplayKit.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Media\Video\Results\ReplayKitVideoShareResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Controllers\ISN_LocalNotificationsController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Controllers\ISN_RemoteNotificationsController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Enum\ISN_NotificationType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Models\ISN_DeviceToken.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Models\ISN_LocalNotification.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Models\ISN_RemoteNotification.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\Notifications\Results\ISN_RemoteNotificationsRegistrationResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Controllers\IOSNativePopUpManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Models\BaseIOSPopup.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Models\IOSDialog.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Models\IOSMessage.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Models\IOSRateUsPopUp.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Messaging\PopUps\Results\IOSDialogResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\Social\Controllers\IOSSocialManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Controllers\IOSBillingInitChecker.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Controllers\IOSInAppPurchaseManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Controllers\IOSNativeMarketBridge.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Enum\IOSStoreResultCode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Enum\IOSTransactionErrorCode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Enum\ISN_InAppPriceTier.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Enum\ISN_InAppType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Enum\InAppPurchaseState.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Models\IOSStoreProductView.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Controllers\SK_CloudService.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Enums\SK_CloudServiceAuthorizationStatus.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Enums\SK_CloudServiceCapability.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Results\SK_AuthorizationResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Results\SK_RequestCapabilitieResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Services\CloudService\Results\SK_RequestStorefrontIdentifierResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Templates\IOSProductTemplate.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Templates\IOSStoreKitRestoreResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Templates\IOSStoreKitResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\StoreKit\Templates\IOSStoreKitVerificationResponse.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\AppEvents\IOSNativeAppEvents.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\DateTimePicker\IOSDateTimePicker.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\DateTimePicker\IOSDateTimePickerMode.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Device\ISN_Device.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Device\ISN_DeviceGUID.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Device\ISN_InterfaceIdiom.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Gestures\ISN_GestureRecognizer.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Gestures\ISN_SwipeDirection.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Logger\ISN_Logger.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Security\ISN_LocalReceiptResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Security\ISN_Security.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\SharedApplication\IOSSharedApplication.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\SharedApplication\ISN_CheckUrlResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Utility\IOSNativeUtility.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\System\Utility\ISN_Locale.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Controllers\ISN_CloudKit.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Controllers\iCloudManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Models\CK_Database.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Models\CK_Query.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Models\CK_Record.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Models\CK_RecordID.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Results\CK_QueryResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Results\CK_RecordDeleteResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Results\CK_RecordResult.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\Scripts\iCloud\Templates\iCloudData.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Base\BaseIOSFeaturePreview.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Billing\MarketExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Billing\PaymentManagerExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\GameCenterExamples\GameCenterExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\GameCenterExamples\GameCenterFriendLoadExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\GameCenterExamples\LeaderboardCustomGUIExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\JSExample\JSHelper.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\MultiplayerManagerExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\TBM_Multiplayer_Example.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\GUI\ConnectionButton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\GUI\DisconnectButton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\Utils\ByteBuffer.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\managers\ClickManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\managers\NetworkManager.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\managers\PTPGameController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\packages\BasePackage.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\packages\HelloPackage.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Multiplayer\ptpGame\packages\ObjectCreatePackage.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\AppEventHandlerExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\CloudKitUseExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\GameSavesExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\IOSSocialUseExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\ISNMediaExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\NativeIOSActionsExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\NotificationExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\PopUpExamples.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\ReplayKitUseExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Other\iCloudUseExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Preview\IOSNativeFeaturesPreview.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\Preview\IOSNativePreviewBackButton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\TvOS\GameCenterTvOSExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Modules\IOSNative\xExamples\Scripts\TvOS\TvOSInAppsExample.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Data\SA_Converter.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Data\SA_MiniJSON.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Effetcs\Animations\Tween\Enums\SA_EaseType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Effetcs\Animations\Tween\Methods\SA_ValuesTween.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Effetcs\Animations\Tween\Pixelplacement\iTween\SA_iTween.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_Error.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_Invoker.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_PrefabAsyncLoader.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_Result.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_ScreenshotMaker.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Models\SA_WWWTextureLoader.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Modules\SA_Config.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Extensions\SA_GameObjectExtensions.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Extensions\SA_TextureExtensions.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Modules\SA_Files.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Modules\SA_GeneralUtility.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Modules\SA_IdFactory.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Modules\SA_Loader.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Modules\SA_Screen.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Patterns\SA_NonMonoSingleton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\Common\Utilities\Patterns\SA_Singleton.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Advertisement\SA_Ad_EditorUIController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Advertisement\SA_EditorAd.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\InAppPurchaces\SA_EditorInApps.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\InAppPurchaces\SA_InApps_EditorUIController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Notifications\SA_EditorNotificationType.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Notifications\SA_EditorNotifications.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Notifications\SA_Notifications_EditorUIController.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Utilities\SA_EditorTesting.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Utilities\SA_UIHightDependence.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\Utilities\SA_UIWidthDependence.cs" />
+     <Compile Include="Assets\Plugins\StansAssets\Support\EditorTesting\xTextScene\SA_EditorTestingSceneController.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\ComboBox.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\IAPDemo.cs" />
+     <Compile Include="Assets\Plugins\UnityPurchasing\script\UnibillDemo.cs" />
+     <Compile Include="Assets\Plugins\iOS\iOSTorch.cs" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m134-x_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m4a1_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Chromatical.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_YUV.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\I2\Localization\Examples\Common\Languages\English.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Crosshatch.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_HardLight.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_DigitalMatrix.shader" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_FishEye.shader" />
+     <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Blood\Shaders\Blood.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIAdditive.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\ak47_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\an94_frame.txt" />
+     <None Include="Assets\I2\Localization\Examples\Common\Languages\Spanish.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LighterColor.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Tunnel.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga_FlashWhite.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\SoftMaskShaderText.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_InApp.mm.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Desert.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga_Flash.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Mirror.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Rainbow.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_VividLight.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Hexagon_Black.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\pgm_hecate_ii_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Focus.shader" />
+     <None Include="Assets\GUIPackCartoon\Demo\Shaders\GrayTint.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Stripe.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_NightVision_4.shader" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blizzard.shader" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_EyesVision_2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Switching.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_Sobel.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LinearBurn.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\cm901_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_Golden.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Hue.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_SplitScreen.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_EyesVision_1.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Ansi.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Artefact.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Old_Movie_2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_BrokenGlass.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_SoftLight.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_GestureRecognizer.mm.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Divide.shader" />
+     <None Include="Assets\Plugins\StansAssets\Modules\IOSNative\Documentation\ISN_VersionNotes.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga2.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\usp_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_RGB.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Steam.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_AAA_SuperComputer.shader" />
+     <None Include="Assets\Plugins\FingerGestures\Readme.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_DigitalMatrixDistortion.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga3.shader" />
+     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_ARCADE.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Film_Grain.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Light_Rainbow.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Rainbow.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Noise.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m134_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_DarkColor.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Hypno.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Rgb.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Invert.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_AAA_Blood.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\ak47_reddot_frame.txt" />
+     <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m1887_golden_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_Adjust_PreFilters.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Multiply.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_PlanetMars.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Pixelisation_OilPaint.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UISoftAdditive.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Antialiasing_FXAA.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\glock18_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\d_eagle_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\mk14_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_PinLight.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_ZebraColor.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Scan.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_ShockWave.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Flag.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_GaussianBlur.shader" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga5.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\sfgun_frame.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_FilePicker.mm.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Lens.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_CloudKit.mm.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Exclusion.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Halftone.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Therma.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\desert_eagle_dual.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_ColorDodge.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIParticleHidden.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Heat.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\striker_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Light_Rainbow2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_VHS_Tracking.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_80.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\SoftMaskShader.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_GameCenter.mm.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\ppsh41_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_NeonGradient.shader" />
+     <None Include="Assets\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\SurrogatesReadMe.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m249-x_frame.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_SocialGate.mm.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m1911_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LinearDodge.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\p90_frame.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_RemoteNotifications.mm.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_BrightContrastSaturation.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\tar21_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Pixelisation_Dot.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_BlackLine.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_BlurHole.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Real_VHS.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Special_Bubble.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_ColorBurn.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_VHS_Rewind.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\p99_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Overlay.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_VHS.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision3.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Funk.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_DarkerColor.shader" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Screens.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\uzi_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m24_frame.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Camera.mm.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_NightVisionFX.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_AAA_SuperHexagon.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\as50_frame.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\Versions\ISN_VersionInfo.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Regular.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Radial.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m249_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Drunk2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenVertical.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_OldFilm_Cutting1.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Plasma.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_NewCellShading.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_BlueScreen.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Dream.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m4a1_golden_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_GrayScale.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Lines.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_OldFilm_Cutting2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Glitch3.shader" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\w1200_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m92_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\aw_l118a_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Crystal.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Warp2.shader" />
+     <None Include="Assets\Demigiant\DemiLib\DemiLib.xml" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Curve.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Retro_Loading.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Film_ColorPerfection.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\mk48_frame.txt" />
+     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Warp.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision5.shader" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Glitch1.shader" />
+     <None Include="Assets\MobileNative\Readme.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Water_Drop.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIImageCrop.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Hexagon.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Alien_Vision.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_NativeCore.mm.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Half_Sphere.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_Edge_filter.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Light_Water2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Drunk.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\mp5_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m16a4_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenHorizontal.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_ElectricGradient.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UILinearDodge.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_8bits.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Lighten.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenCircle.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Media.mm.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\soul_eater.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Glitch_Mozaic.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_EXTRA_Rotation.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_Neon.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m9_dual.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_ARCADE_2.shader" />
+     <None Include="Assets\Blood\Readme.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Flush.shader" />
+     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_DitherOffset.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_NativeCore.h.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Oculus_NightVision1.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Spot.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_Adjust_FullColors.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Old.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Vintage.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\acr_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_AuraDistortion.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\mg3-x_frame.txt" />
+     <None Include="Assets\Plugins\StansAssets\Modules\IOSDeploy\Documentation\ReadMe.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Blood.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_BigFace.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_InverChromiLum.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_8bits_gb.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Sepia.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Subtract.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\sl8_golden_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_NewPosterize.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Blurry.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m21_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Darken.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_FireGradient.shader" />
+     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Oculus_ThermaVision.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_WideScreenHV.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Gradients_Tech.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Comics.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Dissipation.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\ksg_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Chromatical2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_EarthQuake.shader" />
+     <None Include="Assets\I2\Localization\readme.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Luminosity.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Distorted.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\RealStrike.xml" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Plasma.shader" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_Soomla.mm.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_HSV.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Drost.shader" />
+     <None Include="Assets\Plugins\StansAssets\Modules\IOSNative\Documentation\ReadMe.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_Adjust_ColorRGB.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\Real-Strike.xml" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIMultiply.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Blend.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Psycho.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_LinearLight.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_50.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Dot_Circle.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_Brightness.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Video3D.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Dithering2x2.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\lrrs_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\spas12_frame.txt" />
+     <None Include="Assets\Plugins\StansAssets\Support\NativeLibraries\IOS\ISN_ReplayKit.mm.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_HUE_Rotate.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Radial_Fast.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_GreenScreen.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_CellShading.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Hue.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Light_Water.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Pixel_Pixelisation.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\sass_frame.txt" />
+     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Vcr.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga_Color.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Contrast.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Noise.shader" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Pixelisation_OilPaintHQ.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_AAA_WaterDrop.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Edge_Sigmoid.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Old_Movie.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Screen.shader" />
+     <None Include="Assets\README.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\claw_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Wave_Horizontal.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m1887_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Ascii.shader" />
+     <None Include="Assets\Blood\Shaders\BloodNoSmooth.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\qbz_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\m82_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Videoflip.shader" />
+     <None Include="Assets\JsonDotNet\ReadMe.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Sharpen_Sharpen.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\g36c_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Psycho.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Atmosphere_Snow_8bits.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\realStrikeTest.xml" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\knife_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Posterize.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Movie.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\fn2000_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Saturation.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Vision_Aura.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Toon.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\scar_h_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blur_Bloom.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\ump45_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\scar_l_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\fn57_frame.txt" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\hk23-x_frame.txt" />
+     <None Include="Assets\MobileNative\Resources\MobileNativeStrings.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Noise.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_CellShading2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_LED.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Manga4.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_Dream2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Difference.shader" />
+     <None Include="Assets\unity-ui-extensions\Shaders\UIScreen.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_Color.shader" />
+     <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_EnhancedComics.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Colors_Threshold.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Tiles.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_BrokenGlass2.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Blend2Camera_HardMix.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_CompressionFX.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Color_Chromatic_Aberration.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\mp7_frame.txt" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\iceaxe_frame.txt" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Drawing_Laplacian.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_Distortion_BlackHole.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_TV_Noise.shader" />
+     <None Include="Assets\Camera Filter Pack\Resources\CameraFilterPack_FX_Grid.shader" />
+     <None Include="Assets\Prismnova\Standard Assets\Audio\Effect\glock_usp_dual.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Demigiant/DemiLib/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="ArabicSupport">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/I2/Localization/Dlls/ArabicSupport.dll</HintPath>
+ </Reference>
+ <Reference Include="Common">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>/Users/mingjieli/Workspace/Prismnova/Real-Strike-Android/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

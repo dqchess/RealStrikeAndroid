@@ -1,0 +1,11 @@
+reload:
+0 common_draw.wav
+22 ak47_clipout.wav
+62 ak47_clipin2.wav
+
+draw:
+0 common_draw4.wav
+16 ak47_boltpull.wav
+
+empty:
+common_empty2.wav

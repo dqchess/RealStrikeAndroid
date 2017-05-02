@@ -1,0 +1,15 @@
+reload:
+0 common_draw4.wav
+25 m4a1_clipout.wav
+53 m4a1_clipin.wav
+89 m4a1_boltpull.wav
+
+draw:
+0 common_draw5.wav
+23 m4a1_boltpull.wav
+
+empty:
+common_empty5.wav
+
+fire:
+m4a1_fire.wav

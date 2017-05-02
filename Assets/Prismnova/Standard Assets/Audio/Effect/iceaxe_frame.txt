@@ -1,0 +1,5 @@
+draw:
+0 knife_draw.wav
+
+fire:
+knife_slash3.wav/knife_slash4.wav

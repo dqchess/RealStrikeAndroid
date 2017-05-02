@@ -1,0 +1,16 @@
+reload:
+0 common_draw4.wav
+13 m249_boltpull.wav
+30 m249_coverup.wav
+58 m249_boxout.wav
+123 m249_boxin.wav
+154 m249_chain.wav
+167 m249_coverdown.wav
+195 m249_boltpull.wav
+
+draw:
+0 common_draw4.wav
+10 m249_boltpull.wav
+
+empty:
+common_empty.wav

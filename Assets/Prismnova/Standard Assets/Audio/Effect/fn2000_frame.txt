@@ -1,0 +1,12 @@
+reload:
+0 common_draw4.wav
+17 as50_clipout.wav
+59 as50_clipin.wav
+80 cm901_boltpull.wav
+
+draw:
+0 common_draw4.wav
+18 cm901_boltpull.wav
+
+empty:
+common_empty3.wav

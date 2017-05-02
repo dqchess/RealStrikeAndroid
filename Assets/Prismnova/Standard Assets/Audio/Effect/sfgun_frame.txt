@@ -1,0 +1,13 @@
+reload:
+0 sfgun_fx1.wav
+11 sfgun_fx3.wav
+61 sfgun_fx4.wav
+84 sfgun_fx2.wav
+
+draw:
+0 sfgun_fx1.wav
+9 sfgun_bolt.wav
+28 sfgun_fx2.wav
+
+empty:
+sfgun_fx2.wav

@@ -1,0 +1,12 @@
+reload:
+0 mp5_common_draw2.wav
+7 mp5_clipout.wav
+40 mp5_clipin.wav
+62 mp5_boltpull.wav
+
+draw:
+0 mp5_common_draw2.wav
+8 mp5_boltpull.wav
+
+empty:
+common_empty.wav

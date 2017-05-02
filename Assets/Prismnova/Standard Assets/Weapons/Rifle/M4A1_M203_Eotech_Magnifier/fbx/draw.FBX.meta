@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: af8038f14cfe8894fb12c1cddb10959f
+timeCreated: 1475074270
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 2
+    100002: Bone06
+    100004: Bone07
+    100006: Bone08
+    100008: Bone10
+    100010: Bone11
+    100012: Bone12
+    100014: Bone14
+    100016: Bone15
+    100018: Bone16
+    100020: Bone18
+    100022: Bone19
+    100024: Bone20
+    100026: Bone22
+    100028: Bone23
+    100030: Bone24
+    100032: //RootNode
+    100034: DrawCall_16
+    100036: DrawCall_17
+    100038: DrawCall_18
+    100040: DrawCall_19
+    100042: DrawCall_22
+    100044: DrawCall_23
+    100046: DrawCall_24
+    100048: DrawCall_25
+    100050: DrawCall_26
+    100052: Dummy01
+    100054: Dummy02
+    100056: Left1
+    100058: Left10
+    100060: Left11
+    100062: Left12
+    100064: Left13
+    100066: Left14
+    100068: Left15
+    100070: Left2
+    100072: Left3
+    100074: Left4
+    100076: Left5
+    100078: Left6
+    100080: Left7
+    100082: Left8
+    100084: Left9
+    100086: Left_Hand
+    100088: Left_L_Arm
+    100090: Left_U_Arm
+    100092: Right_Hand
+    100094: Right_L_Arm
+    100096: Right_U_Arm
+    400000: 2
+    400002: Bone06
+    400004: Bone07
+    400006: Bone08
+    400008: Bone10
+    400010: Bone11
+    400012: Bone12
+    400014: Bone14
+    400016: Bone15
+    400018: Bone16
+    400020: Bone18
+    400022: Bone19
+    400024: Bone20
+    400026: Bone22
+    400028: Bone23
+    400030: Bone24
+    400032: //RootNode
+    400034: DrawCall_16
+    400036: DrawCall_17
+    400038: DrawCall_18
+    400040: DrawCall_19
+    400042: DrawCall_22
+    400044: DrawCall_23
+    400046: DrawCall_24
+    400048: DrawCall_25
+    400050: DrawCall_26
+    400052: Dummy01
+    400054: Dummy02
+    400056: Left1
+    400058: Left10
+    400060: Left11
+    400062: Left12
+    400064: Left13
+    400066: Left14
+    400068: Left15
+    400070: Left2
+    400072: Left3
+    400074: Left4
+    400076: Left5
+    400078: Left6
+    400080: Left7
+    400082: Left8
+    400084: Left9
+    400086: Left_Hand
+    400088: Left_L_Arm
+    400090: Left_U_Arm
+    400092: Right_Hand
+    400094: Right_L_Arm
+    400096: Right_U_Arm
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/Right_U_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone22
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone22/Bone23
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone22/Bone23/Bone24
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone06
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone06/Bone07
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone06/Bone07/Bone08
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone10
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone10/Bone11
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone10/Bone11/Bone12
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone14
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone14/Bone15
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone14/Bone15/Bone16
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone18
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone18/Bone19
+        weight: 1
+      - path: Dummy01/Right_U_Arm/Right_L_Arm/Right_Hand/Bone18/Bone19/Bone20
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Left_U_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left1/Left2/Left3
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left10/Left11/Left12
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left13/Left14/Left15
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left7/Left8/Left9
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5
+        weight: 1
+      - path: Dummy02/Left_U_Arm/Left_L_Arm/Left_Hand/Left4/Left5/Left6
+        weight: 1
+      - path: DrawCall_16
+        weight: 1
+      - path: DrawCall_17
+        weight: 1
+      - path: DrawCall_18
+        weight: 1
+      - path: DrawCall_19
+        weight: 1
+      - path: DrawCall_22
+        weight: 1
+      - path: DrawCall_23
+        weight: 1
+      - path: DrawCall_24
+        weight: 1
+      - path: DrawCall_25
+        weight: 1
+      - path: DrawCall_26
+        weight: 1
+      - path: 2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
