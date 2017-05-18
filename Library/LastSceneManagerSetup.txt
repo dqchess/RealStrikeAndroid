@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Prismnova/Resources/Scene/RealStrikeAdvanced.unity
+- path: Assets/Prismnova/Resources/Scene/Armory.unity
   isLoaded: 1
   isActive: 1
