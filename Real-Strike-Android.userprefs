@@ -1,11 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Prismnova/aimPve/Script/TakePhoto.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Camera Filter Pack/Resources/CameraFilterPack_FX_DigitalMatrixDistortion.shader">
     <Files>
-      <File FileName="Assets/Prismnova/aimPve/Script/TakePhoto.cs" Line="11" Column="36" />
+      <File FileName="Assets/ProductManager.cs" Line="87" Column="13" />
+      <File FileName="Assets/Prismnova/Resources/Script/Purchaser.cs" Line="1" Column="1" />
+      <File FileName="Assets/Prismnova/Resources/Script/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Vuforia/Editor/Scripts/ExtensionImport.cs" Line="1" Column="1" />
+      <File FileName="Assets/Prismnova/aimPve/Script/TakePhoto.cs" Line="1" Column="1" />
       <File FileName="Assets/SocialSharingBhvr.cs" Line="1" Column="1" />
       <File FileName="Assets/RecordBhvr.cs" Line="1" Column="1" />
       <File FileName="Assets/GUIPackCartoon/Demo/Scripts/SceneTransition.cs" Line="1" Column="1" />
+      <File FileName="Assets/Prismnova/aimPve/Script/aimManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/ArmoryBhvr.cs" Line="1" Column="1" />
+      <File FileName="Assets/IAPProduct.cs" Line="1" Column="1" />
+      <File FileName="Assets/Camera Filter Pack/Resources/CameraFilterPack_FX_DigitalMatrixDistortion.shader" Line="94" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

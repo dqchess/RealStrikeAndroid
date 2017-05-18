@@ -84,8 +84,8 @@ namespace Prismnova {
                 Debug.LogError("can not find product name : " + productName);
                 return;
             }
-            product.unlock = unlock;
-		//	product.unlock = true;
+          //  product.unlock = unlock;
+			product.unlock = true;
 			Debug.Log ("在这里更改了解锁全部抢！！！！");
         }
         /// <summary>
